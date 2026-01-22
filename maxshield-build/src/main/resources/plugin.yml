@@ -1,0 +1,4 @@
+name: MaxShield
+version: 3.2
+main: maxshield.MaxShield
+api-version: '1.21'

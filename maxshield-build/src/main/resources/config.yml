@@ -1,0 +1,18 @@
+fail-ratio: 0.50
+min-samples: 20
+max-per-ip: 3
+captcha-timeout-seconds: 60
+window-seconds: 60
+cooldown-seconds: 60
+limbo-y: 200
+move-threshold: 0.5
+messages:
+  checking: "§eИдёт проверка на бота... Подождите."
+  captcha: "§cЧтобы подтвердить, что вы не бот, напишите в чат число: §e"
+  captcha-time: "§7(У вас %d секунд)"
+  timeout: "§cВремя на верификацию истекло."
+  success: "§aВерификация пройдена! Приятной игры."
+  wrong: "§cНеверный ответ. Подключитесь заново."
+  only-number: "§cВведите только число!"
+  ip-limit: "§cСлишком много подключений с вашего IP (лимит %d)."
+  move-kick: "§cДвижение в режиме проверки запрещено."
